@@ -2,8 +2,7 @@
 title: "Lists - In Class Exercises"
 author: "Dr. Shoemaker"
 date: "DATA 2401"
-output:nhtml_document
-
+output: html_document
 ---
 
 # Exercises: 
@@ -50,6 +49,7 @@ Let `x <- list(a=5:10, c="Hello", d="AA")`, write an R statement to add a new it
 
 ```{r}
 x <- list(a=5:10, c="Hello", d="AA")
-
+x$z='NewItem'
+x
 
 ```
